@@ -18,6 +18,7 @@ gitlab:
     - GITLAB_PORT=10080
     - GITLAB_SSH_PORT=10022
     - GITLAB_SECRETS_DB_KEY_BASE=qcs-gitlab-app
+    - VIRTUAL_HOST=git.villamedia.ca
 redis:
   restart: always
   image: sameersbn/redis:latest
